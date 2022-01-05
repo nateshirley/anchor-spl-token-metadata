@@ -1,0 +1,15 @@
+[package]
+name = "anchor-spl-token-metadata"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["nate"]
+repository = "https://github.com/nateshirley/anchor-spl-token-metadata"
+description = "anchor wrapper for cpi's into the token metadata program"
+categories = ["cryptography::cryptocurrencies"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anchor-lang = "0.19.0"
+spl-token-metadata = { version="0.0.1", features = [ "no-entrypoint" ] }
