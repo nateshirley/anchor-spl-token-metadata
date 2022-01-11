@@ -1,4 +1,4 @@
-pub mod token_metadata {
+pub mod anchor_token_metadata {
     use anchor_lang::prelude::*;
     use anchor_lang::solana_program::{
         self,
